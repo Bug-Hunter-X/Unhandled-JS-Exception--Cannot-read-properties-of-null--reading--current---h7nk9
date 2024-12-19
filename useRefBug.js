@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a function component.  The ref is initially `null` and attempting to access a property or method of a `null` value will result in a runtime error. This is particularly problematic when dealing with components that mount and unmount frequently or have asynchronous operations.
